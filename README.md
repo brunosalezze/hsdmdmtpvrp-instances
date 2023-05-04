@@ -1,10 +1,10 @@
 These files are hsdmdmtpvrp01, hsdmdmtpvrp02, ..., hsdmdmtpvrp20
 
 These data files are the ones considered in:
-"A tabu search algorithm for the periodic vehicle routing problem 
-with multiple vehicle trips and accessibility restrictions"
-by F. Alonso, M.J. Alvarez and J.E. Beasley,
-Journal of the Operational Research Society vol.59, 2008, pp963-976
+"Metaheuristics with variable diversity control and neighborhood search for the
+Heterogeneous Site-Dependent Multi-depot Multi-trip Periodic Vehicle Routing Problem"
+by B.S. Vieira, M.J. Alvarez and J.E. Beasley,
+Computers & Operations Research vol.153, 2023, ISSN 0305-0548
 
 The format of data files is as described below.
 
@@ -16,7 +16,7 @@ where
 
         t = number of days of the period
 		
-		m = number of vehicles
+	m = number of vehicles
 
         n = number of customers
 
@@ -33,7 +33,7 @@ where
 
         p = Vehicle type
 		
-		k = number of avaiable vehicles
+	k = number of avaiable vehicles
         
         Q = maximum load of a vehicle
 
@@ -41,7 +41,7 @@ where
 
         f = Fixed cost per period of use
 		
-		c = Operation cost per unit of distance travelled
+	c = Operation cost per unit of distance travelled
         
 
 The next n lines contain, for each customer, the following information:
